@@ -35,7 +35,12 @@ class MyApp extends StatelessWidget {
               ),
             ],
             bottom: TabBar(
-              labelStyle: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+              labelStyle: TextStyle(
+                fontSize: 15,
+                fontWeight: FontWeight.bold,
+              ),
+              labelColor: kSecondaryColor,
+              unselectedLabelColor: kTextColor,
               tabs: [
                 Tab(
                   icon: Icon(Icons.camera_alt),
