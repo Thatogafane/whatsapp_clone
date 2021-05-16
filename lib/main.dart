@@ -2,6 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone/constant.dart';
+import 'package:whatsapp_clone/screens/chats.dart';
 
 void main() {
   runApp(MyApp());
@@ -55,7 +56,7 @@ class MyApp extends StatelessWidget {
           body: TabBarView(
             children: [
               Icon(Icons.camera),
-              Text('Chat Screen'),
+              Chat(),
               Text('Status Screen'),
               Text('Call Screen'),
             ],
